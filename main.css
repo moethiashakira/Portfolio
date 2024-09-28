@@ -936,10 +936,11 @@ img {
   .about__description {
     text-align: justify;
     margin-right: 0px;
+    margin-left: 0px;
   }
 
   .about__buttons {
-    margin-left: 0px;
+    margin-left: 90px;
   }
 
   .home__button {
@@ -993,6 +994,16 @@ img {
 }
 
 @media screen and (min-width: 381px) {
+  .about__description {
+    text-align: justify;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .about__buttons {
+    margin-left: 90px;
+  }
+
   .portfolio__img {
     margin-left: 60px;
   }
@@ -1034,6 +1045,18 @@ img {
   
 }
 
+@media screen and (min-width: 491px){
+  .about__description {
+    text-align: justify;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .about__buttons {
+    margin-left: 130px;
+  }
+}
+
 /* For medium devices */
 @media screen and (min-width: 568px) {
   .home__content {
@@ -1062,6 +1085,17 @@ img {
     display: grid;
     grid-template-columns: 0.6fr;
     justify-content: center;
+  }
+
+  .about__description {
+    text-align: justify;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .about__buttons {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .portfolio__img {
