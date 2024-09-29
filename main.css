@@ -189,7 +189,8 @@ img {
   align-items: center;
 }
 
-.nav__logo, .nav__toggle {
+.nav__logo, 
+.nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -1004,6 +1005,11 @@ img {
     margin-left: 90px;
   }
 
+  .section__title {
+    margin-top: 150px;
+  }
+  
+
   .portfolio__img {
     margin-left: 60px;
   }
@@ -1029,8 +1035,8 @@ img {
   }
 
   .portfolio__description1 {
-    margin-left: 50px;
-    margin-right: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
     text-align: justify;
   }
 
@@ -1119,12 +1125,12 @@ img {
   .portfolio__title6 {
     margin-left: 30px;
     text-align: center;
-    margin-right: 0px;
+    margin-right: 30px;
   }
 
   .portfolio__description1 {
     margin-left: 50px;
-    margin-right: 0px;
+    margin-right: 50px;
     text-align: justify;
   }
 
